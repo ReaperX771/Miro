@@ -127,10 +127,10 @@ function Footer() {
               <p className='text-white'>Manage Cookies</p>
             </div>
 
-            <div className='flex flex-col md:flex-row items-center gap-3'>
-              <img src={apps} alt='App Store' />
-              <img src={goog} alt='Google Play' />
-              <img src={gof} alt='GoF' />
+            <div className='flex justify-center items-center gap-3'>
+              <img className='w-27 sm:w-full' src={apps} alt='App Store' />
+              <img className='w-30 sm:w-full' src={goog} alt='Google Play' />
+              <img className='w-9 sm:w-full' src={gof} alt='GoF' />
             </div>
           </div>
         </div>
