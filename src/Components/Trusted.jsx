@@ -31,7 +31,7 @@ function Trusted() {
   const [btnRef, btnInView] = useInView({ threshold: 0.2 })
 
   return (
-    <section id='solutions'>
+    <section id='solutions' className='overflow-x-hidden'>
       <div className='w-[90%] m-auto py-20'>
 
         {/* Trusted Logos */}

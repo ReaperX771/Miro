@@ -34,7 +34,7 @@ function Hero() {
   const [rightRef, rightInView] = useInView({ threshold: 0.3 })
 
   return (
-    <section id='login'>
+    <section id='login' className='overflow-x-hidden'>
       <div className='w-[95%] m-auto py-20'>
         <div className='flex flex-col-reverse lg:flex-row justify-center gap-10'>
 

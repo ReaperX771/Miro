@@ -33,7 +33,7 @@ function Built() {
   }, [])
 
   return (
-    <section id='resources'>
+    <section id='resources' className='overflow-x-hidden'>
       <div className='w-[77%] m-auto py-20'>
 
         <div className='text-sm text-[#050038]' ref={sectionRef1}>

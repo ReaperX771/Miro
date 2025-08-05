@@ -25,7 +25,7 @@ function The() {
   const [textRef, textInView] = useInView({ threshold: 0.3 });
 
   return (
-    <section>
+    <section className='overflow-x-hidden'>
       <div className='w-[77%] m-auto py-20 overflow-x-hidden'>
         <div className='flex flex-col md:relative w-full'>
 

@@ -16,7 +16,7 @@ function Why() {
   }, [])
 
   return (
-    <section id='enterprise' className='bg-[#FFD02F] py-20 px-4' ref={sectionRef}>
+    <section id='enterprise' className='bg-[#FFD02F] py-20 px-4 overflow-x-hidden' ref={sectionRef}>
       <div className='max-w-6xl mx-auto'>
 
         <div className='text-center mb-16'>

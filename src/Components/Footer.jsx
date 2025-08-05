@@ -11,7 +11,7 @@ import lang2 from '../assets/images/lang2.png'
 
 function Footer() {
   return (
-    <section id='pricing'>
+    <section id='pricing' className='overflow-x-hidden'>
       <div className='bg-[#050038] mt-20'>
 
         <div className='grid gap-10 grid-cols-2 py-20 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 w-[90%] mx-auto'>

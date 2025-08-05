@@ -39,7 +39,7 @@ function Loved() {
   }, [])
 
   return (
-    <section id='signup'>
+    <section id='signup' className='overflow-x-hidden'>
       <div>
 
         <div className='flex flex-col justify-center items-center gap-7 py-7 mt-20'>

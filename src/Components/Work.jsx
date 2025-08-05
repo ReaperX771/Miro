@@ -29,7 +29,7 @@ function Work() {
   const [rightBottomRef, rightBottomInView] = useInView({ threshold: 0.2 })
 
   return (
-    <section id='product'>
+    <section id='product' className='overflow-x-hidden'>
       <div className='w-[90%] m-auto py-20'>
 
         {/* Top row */}
